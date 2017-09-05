@@ -1,0 +1,7 @@
+---
+applications:
+- name: tcs-service
+  memory: 1024M
+  buildpack: java_buildpack
+  routes:
+  - route: tcs-service.cfapps.io
